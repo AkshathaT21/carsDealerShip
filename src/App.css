@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #282c34;
+  min-height: calc(100vh - 200px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("./Images/homecar.jpg") center/cover no-repeat;
+}
+
+.btn {
+  color: white;
+}
+.banner{
+  display: inline-block;
+    color: #fff;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.banner-detail{
+  color:black;
+  background:#fdf1f1;
+  width:100%;
+  border-bottom: 2px dotted black;
+}
+.banner-detail img{
+  padding-left:30px
+}
+.nav-links {
+    list-style-type: none;
+    height: 23px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.nav-links a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 1rem;
+}
+.allCarsAlign{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.car,.carFilter{
+  width:30%;
+  padding: 0px 0px 10px 10px;
+}
+.flexGrid{
+  display:flex
+}
+.carDetails{
+  width:100%;
+}
+.imageContainer{
+  background:#fdf1f1;
+}
+.imageContainer img{
+  width: 100%;
+  display: block;
+}
+.imageContainer img:hover{
+  cursor:pointer;
+}
+h1{
+  color:white !important;
+}
+.contactUsForm{
+  width: 30%;
+  text-align: left;
+  margin-left: 8% !important;
+}
+input[type="text"],textarea[type="text"]{
+  margin:10px;
+}
+textarea[type="text"]{
+  width:100%;
+}
